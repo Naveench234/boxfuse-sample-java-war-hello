@@ -18,7 +18,8 @@
                   steps{
                      
                        
-                       sshagent(['TOMCAT']) {
+                       sshagent(['ssh-agent']) {
+
                        
                        sh """
                             scp -o StrictHostKeyChecking=no  target/boxfuse-sample-java-war-hello.war ubuntu@13.127.136.116:/home/ubuntu/apache-tomcat-9.0.90/webapps/

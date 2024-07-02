@@ -68,11 +68,23 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://13.232.45.92:8081/repository/sample-snapshots/</url>
+            <url>http://   <!-- Distribution Management for deploying artifacts -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexusRepo</id>
+            <url>http://54.177.178.189:8081/repository/Sample-Snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexusRepo</id>
-            <url>http://13.232.45.92:8081/repository/sample-releases/</url>
+            <url>http://54.177.178.189:8081/repository/sample-release/</url>
+        </repository>
+    </distributionManagement>
+</project>
+/repository/sample-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexusRepo</id>
+            <url>http://54.177.178.189:8081/repository/sample-release/</url>
         </repository>
     </distributionManagement>
 </project>
